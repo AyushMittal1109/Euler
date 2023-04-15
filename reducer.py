@@ -13,4 +13,5 @@ for line in sys.stdin:
     Fsum += m*count
     countSum += count
 
+Fsum = float(Fsum)
 print(Fsum/countSum)
